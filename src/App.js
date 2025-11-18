@@ -98,15 +98,15 @@ function App() {
     if (!subscribeEmail) return;
 
     const templateParams = {
-      subscriber_email: subscribeEmail, // Must match your EmailJS template variable
+      subscriber_email: subscribeEmail,
       to_email: "aryandeol2@gmail.com",
     };
 
     emailjs.send(
-      "service_80robec",   // Your EmailJS service ID
-      "template_ksp1cjo",  // Your EmailJS template ID
+      "service_80robec",   // EmailJS service ID
+      "template_ksp1cjo",  // EmailJS template ID
       templateParams,
-      "W0nyt83jblQEgsMCL"  // Your EmailJS public key
+      "W0nyt83jblQEgsMCL"  // EmailJS public key
     )
     .then((response) => {
       console.log("SUCCESS!", response.status, response.text);
@@ -183,7 +183,7 @@ function App() {
       <div
         style={{
           position: "absolute",
-          bottom: "1.8vh",
+          bottom: "1.6vh",
           left: "14vw",
           display: "flex",
           alignItems: "center",
