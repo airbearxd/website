@@ -183,7 +183,7 @@ function App() {
       <div
         style={{
           position: "absolute",
-          bottom: "1.6vh",
+          bottom: "1.5vh",
           left: "14vw",
           display: "flex",
           alignItems: "center",
@@ -226,7 +226,7 @@ function App() {
       <div
         style={{
           position: "absolute",
-          bottom: "1.5vh",
+          bottom: "1.3vh",
           right: "4.2vw",
           fontFamily: "'VT323', monospace",
           fontSize: "4vmin",
