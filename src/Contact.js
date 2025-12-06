@@ -96,7 +96,7 @@ export default function Contact({ onClose }) {
           color: "#000",
         }}
       >
-        <h1>Contact Us</h1>
+        <h1>Send a Message!</h1>
         <form onSubmit={handleSubmit}>
           <div style={{ marginBottom: "1em" }}>
             <input
