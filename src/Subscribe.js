@@ -72,7 +72,7 @@ export default function Subscribe({ onClose }) {
             fontWeight: "bold",
             fontFamily: "'VT323', monospace",
             cursor: "pointer",
-            // padding: "0 0.5em",
+            padding: "0 0.5em",
           }}
         >
           X
