@@ -72,7 +72,7 @@ export default function Subscribe({ onClose }) {
             fontWeight: "bold",
             fontFamily: "'VT323', monospace",
             cursor: "pointer",
-            padding: "0 0.5em",
+            // padding: "0 0.5em",
           }}
         >
           X
@@ -91,7 +91,7 @@ export default function Subscribe({ onClose }) {
         }}
       >
         <h1>Subscribe</h1>
-        <p>Join our mailing list to receive updates, exclusive offers, and more!</p>
+        <p>Join for Updates!</p>
         <p style={{ fontSize: "1.5vmin" }}>
           *I understand that I can opt out at any moment.
         </p>
